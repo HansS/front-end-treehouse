@@ -1,30 +1,30 @@
 ##Css for Navigation
 
 
-###add about.html
+###About Page
 most what we need is in the index.html. You can copy it from index.html
 Modify about.html
 *header
 *section
 *footer
 
+###html
 Add class select to about.html in about.html
 Add image to section
 Add h3 tag
 Add p "This is my profile portfolio....."
 Add p "If you want to follow me this is my twitter profile"
 
-###Add style to styels.css
+###css
 .profile-photo {
 	display:block;
 	max-width:150px;
 	margin; 0 auto 30px;
 	border-radius:100%; // picture will be a circle
 }
-
-##h3
-margin: 0 0 1em 0;
-
+h3 {
+	margin: 0 0 1em 0;
+}
 ##Contact Page
 *create contact.html
 *copy from about.html
@@ -32,14 +32,14 @@ margin: 0 0 1em 0;
 *delete section content
 *add second section with h3 and p sibling tags
 
-###style contact page
+###html
 *add ul to second section with class contact-info
 *add list item for phone details with href="tel:666-664"
 *add list item for email with href="mail-to:nick@nick.com"
 *add list item for twitter with class twitter
 *add list item for facebook with class facebook
 
-##style contact page
+###css
 .contact-info {
 	list-style;none;
 	margin:0;
